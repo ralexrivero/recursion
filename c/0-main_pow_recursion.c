@@ -9,7 +9,7 @@ int main (void)
 {
 	float num = 0;
 
-	num = _pow_recursion(1, 2);
+	num = _pow_recursion(16, 3);
 	printf("%f\n", num);
 
 	return (0);
