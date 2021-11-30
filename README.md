@@ -1,12 +1,22 @@
 # Recursion
 
+## environment
+
+* Compilation flags: ```-Wall -Werror -Wextra -pedantic -std=gnu89```
+
 ## Compilation
 
-- Compilation flags: ```-Wall -Werror -Wextra -pedantic -std=gnu89```
+> To compile the project, run the ```make``` command followed by the *target*
 
-> Makefile
 > every target is a executable with the same name as the target
-> ```pow``` pow recursion
+
+### Targets
+
+* ```pow``` pow recursion
+* ```fclean``` deletes all the executables
+
+
+## Usage
 
 ```bash
 $ make pow
