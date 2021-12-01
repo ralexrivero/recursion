@@ -18,4 +18,4 @@ str:
 	$(CC) $(CFLAGS) $(STR_SRC) -o $(STR_NAME)
 
 fclean:
-	$(RM) $(POW_NAME) $(STR_NAME)
+	$(RM) $(POW_NAME) $(POWARG_NAME) $(STR_NAME)

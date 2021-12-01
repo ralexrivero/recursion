@@ -10,12 +10,12 @@ int main(void)
 {
 	float f = 0, x = 0, y = 0;
 
-	scanf("Enter a number: %f", &x);
-	scanf("Enter the power: %f", &y);
+	printf("Enter a number: ");
+	scanf("%f", &x);
+	printf("Enter the power: ");
+	scanf("%f", &y);
 
-	f = _pow_recursion(x, y);
-	
-	printf("%f.2 ^ %f = %f.2\n", x, y, f);
-
-return (0);
+	f = (_pow_recursion(x, y));
+	printf("Result: %.1f ^ %.1f = %.1f\n", x, y, f);
+	return (0);
 }

@@ -14,6 +14,6 @@ int main(void)
 	y = 5;
 
 	f = (_pow_recursion(x, y));
-	printf("Result: %f pow of %f = %f\n", x, y, f);
+	printf("Result: %.1f ^ %.1f = %.1f\n", x, y, f);
 	return (0);
 }
