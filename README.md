@@ -22,6 +22,7 @@
 ### Targets
 
 * ```pow``` pow recursion
+* ```str``` print string reversed
 * ```fclean``` deletes all the executables
 
 ## Usage
@@ -32,4 +33,3 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 01-pow_recursion.c 01-main.c -o p
 $ ./pow
 Result: 2.000000 pow of 3.000000 = 8.000000
 ```
-
